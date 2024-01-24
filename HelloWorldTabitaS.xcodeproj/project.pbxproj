@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A6BA4A2B60D4AE008E6E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA492B60D4AE008E6E7C /* AppDelegate.swift */; };
+		22A6BA4C2B60D4AE008E6E7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA4B2B60D4AE008E6E7C /* SceneDelegate.swift */; };
+		22A6BA4E2B60D4AE008E6E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA4D2B60D4AE008E6E7C /* ViewController.swift */; };
+		22A6BA512B60D4AE008E6E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A6BA4F2B60D4AE008E6E7C /* Main.storyboard */; };
+		22A6BA542B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA522B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodeld */; };
+		22A6BA562B60D4AE008E6E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A6BA552B60D4AE008E6E7C /* Assets.xcassets */; };
+		22A6BA592B60D4AE008E6E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A6BA572B60D4AE008E6E7C /* LaunchScreen.storyboard */; };
+		22A6BA642B60D4AF008E6E7C /* HelloWorldTabitaSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA632B60D4AF008E6E7C /* HelloWorldTabitaSTests.swift */; };
+		22A6BA6E2B60D4AF008E6E7C /* HelloWorldTabitaSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA6D2B60D4AF008E6E7C /* HelloWorldTabitaSUITests.swift */; };
+		22A6BA702B60D4AF008E6E7C /* HelloWorldTabitaSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6BA6F2B60D4AF008E6E7C /* HelloWorldTabitaSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A6BA602B60D4AF008E6E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A6BA3E2B60D4AE008E6E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A6BA452B60D4AE008E6E7C;
+			remoteInfo = HelloWorldTabitaS;
+		};
+		22A6BA6A2B60D4AF008E6E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A6BA3E2B60D4AE008E6E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A6BA452B60D4AE008E6E7C;
+			remoteInfo = HelloWorldTabitaS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22A6BA462B60D4AE008E6E7C /* HelloWorldTabitaS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldTabitaS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A6BA492B60D4AE008E6E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22A6BA4B2B60D4AE008E6E7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22A6BA4D2B60D4AE008E6E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22A6BA502B60D4AE008E6E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22A6BA532B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorldTabitaS.xcdatamodel; sourceTree = "<group>"; };
+		22A6BA552B60D4AE008E6E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22A6BA582B60D4AE008E6E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22A6BA5A2B60D4AE008E6E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A6BA5F2B60D4AF008E6E7C /* HelloWorldTabitaSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTabitaSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A6BA632B60D4AF008E6E7C /* HelloWorldTabitaSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTabitaSTests.swift; sourceTree = "<group>"; };
+		22A6BA692B60D4AF008E6E7C /* HelloWorldTabitaSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTabitaSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A6BA6D2B60D4AF008E6E7C /* HelloWorldTabitaSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTabitaSUITests.swift; sourceTree = "<group>"; };
+		22A6BA6F2B60D4AF008E6E7C /* HelloWorldTabitaSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTabitaSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A6BA432B60D4AE008E6E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A6BA5C2B60D4AF008E6E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A6BA662B60D4AF008E6E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A6BA3D2B60D4AE008E6E7C = {
+			isa = PBXGroup;
+			children = (
+				22A6BA482B60D4AE008E6E7C /* HelloWorldTabitaS */,
+				22A6BA622B60D4AF008E6E7C /* HelloWorldTabitaSTests */,
+				22A6BA6C2B60D4AF008E6E7C /* HelloWorldTabitaSUITests */,
+				22A6BA472B60D4AE008E6E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A6BA472B60D4AE008E6E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A6BA462B60D4AE008E6E7C /* HelloWorldTabitaS.app */,
+				22A6BA5F2B60D4AF008E6E7C /* HelloWorldTabitaSTests.xctest */,
+				22A6BA692B60D4AF008E6E7C /* HelloWorldTabitaSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A6BA482B60D4AE008E6E7C /* HelloWorldTabitaS */ = {
+			isa = PBXGroup;
+			children = (
+				22A6BA492B60D4AE008E6E7C /* AppDelegate.swift */,
+				22A6BA4B2B60D4AE008E6E7C /* SceneDelegate.swift */,
+				22A6BA4D2B60D4AE008E6E7C /* ViewController.swift */,
+				22A6BA4F2B60D4AE008E6E7C /* Main.storyboard */,
+				22A6BA552B60D4AE008E6E7C /* Assets.xcassets */,
+				22A6BA572B60D4AE008E6E7C /* LaunchScreen.storyboard */,
+				22A6BA5A2B60D4AE008E6E7C /* Info.plist */,
+				22A6BA522B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodeld */,
+			);
+			path = HelloWorldTabitaS;
+			sourceTree = "<group>";
+		};
+		22A6BA622B60D4AF008E6E7C /* HelloWorldTabitaSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22A6BA632B60D4AF008E6E7C /* HelloWorldTabitaSTests.swift */,
+			);
+			path = HelloWorldTabitaSTests;
+			sourceTree = "<group>";
+		};
+		22A6BA6C2B60D4AF008E6E7C /* HelloWorldTabitaSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22A6BA6D2B60D4AF008E6E7C /* HelloWorldTabitaSUITests.swift */,
+				22A6BA6F2B60D4AF008E6E7C /* HelloWorldTabitaSUITestsLaunchTests.swift */,
+			);
+			path = HelloWorldTabitaSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A6BA452B60D4AE008E6E7C /* HelloWorldTabitaS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A6BA732B60D4AF008E6E7C /* Build configuration list for PBXNativeTarget "HelloWorldTabitaS" */;
+			buildPhases = (
+				22A6BA422B60D4AE008E6E7C /* Sources */,
+				22A6BA432B60D4AE008E6E7C /* Frameworks */,
+				22A6BA442B60D4AE008E6E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldTabitaS;
+			productName = HelloWorldTabitaS;
+			productReference = 22A6BA462B60D4AE008E6E7C /* HelloWorldTabitaS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22A6BA5E2B60D4AF008E6E7C /* HelloWorldTabitaSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A6BA762B60D4AF008E6E7C /* Build configuration list for PBXNativeTarget "HelloWorldTabitaSTests" */;
+			buildPhases = (
+				22A6BA5B2B60D4AF008E6E7C /* Sources */,
+				22A6BA5C2B60D4AF008E6E7C /* Frameworks */,
+				22A6BA5D2B60D4AF008E6E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A6BA612B60D4AF008E6E7C /* PBXTargetDependency */,
+			);
+			name = HelloWorldTabitaSTests;
+			productName = HelloWorldTabitaSTests;
+			productReference = 22A6BA5F2B60D4AF008E6E7C /* HelloWorldTabitaSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22A6BA682B60D4AF008E6E7C /* HelloWorldTabitaSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A6BA792B60D4AF008E6E7C /* Build configuration list for PBXNativeTarget "HelloWorldTabitaSUITests" */;
+			buildPhases = (
+				22A6BA652B60D4AF008E6E7C /* Sources */,
+				22A6BA662B60D4AF008E6E7C /* Frameworks */,
+				22A6BA672B60D4AF008E6E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A6BA6B2B60D4AF008E6E7C /* PBXTargetDependency */,
+			);
+			name = HelloWorldTabitaSUITests;
+			productName = HelloWorldTabitaSUITests;
+			productReference = 22A6BA692B60D4AF008E6E7C /* HelloWorldTabitaSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A6BA3E2B60D4AE008E6E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22A6BA452B60D4AE008E6E7C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22A6BA5E2B60D4AF008E6E7C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22A6BA452B60D4AE008E6E7C;
+					};
+					22A6BA682B60D4AF008E6E7C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22A6BA452B60D4AE008E6E7C;
+					};
+				};
+			};
+			buildConfigurationList = 22A6BA412B60D4AE008E6E7C /* Build configuration list for PBXProject "HelloWorldTabitaS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22A6BA3D2B60D4AE008E6E7C;
+			productRefGroup = 22A6BA472B60D4AE008E6E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A6BA452B60D4AE008E6E7C /* HelloWorldTabitaS */,
+				22A6BA5E2B60D4AF008E6E7C /* HelloWorldTabitaSTests */,
+				22A6BA682B60D4AF008E6E7C /* HelloWorldTabitaSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A6BA442B60D4AE008E6E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A6BA592B60D4AE008E6E7C /* LaunchScreen.storyboard in Resources */,
+				22A6BA562B60D4AE008E6E7C /* Assets.xcassets in Resources */,
+				22A6BA512B60D4AE008E6E7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A6BA5D2B60D4AF008E6E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A6BA672B60D4AF008E6E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A6BA422B60D4AE008E6E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A6BA4E2B60D4AE008E6E7C /* ViewController.swift in Sources */,
+				22A6BA4A2B60D4AE008E6E7C /* AppDelegate.swift in Sources */,
+				22A6BA542B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodeld in Sources */,
+				22A6BA4C2B60D4AE008E6E7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A6BA5B2B60D4AF008E6E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A6BA642B60D4AF008E6E7C /* HelloWorldTabitaSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A6BA652B60D4AF008E6E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A6BA6E2B60D4AF008E6E7C /* HelloWorldTabitaSUITests.swift in Sources */,
+				22A6BA702B60D4AF008E6E7C /* HelloWorldTabitaSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A6BA612B60D4AF008E6E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A6BA452B60D4AE008E6E7C /* HelloWorldTabitaS */;
+			targetProxy = 22A6BA602B60D4AF008E6E7C /* PBXContainerItemProxy */;
+		};
+		22A6BA6B2B60D4AF008E6E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A6BA452B60D4AE008E6E7C /* HelloWorldTabitaS */;
+			targetProxy = 22A6BA6A2B60D4AF008E6E7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22A6BA4F2B60D4AE008E6E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A6BA502B60D4AE008E6E7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22A6BA572B60D4AE008E6E7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A6BA582B60D4AE008E6E7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A6BA712B60D4AF008E6E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22A6BA722B60D4AF008E6E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A6BA742B60D4AF008E6E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorldTabitaS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.HelloWorldTabitaS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A6BA752B60D4AF008E6E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorldTabitaS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.HelloWorldTabitaS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22A6BA772B60D4AF008E6E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.HelloWorldTabitaSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldTabitaS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloWorldTabitaS";
+			};
+			name = Debug;
+		};
+		22A6BA782B60D4AF008E6E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.HelloWorldTabitaSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldTabitaS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloWorldTabitaS";
+			};
+			name = Release;
+		};
+		22A6BA7A2B60D4AF008E6E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.HelloWorldTabitaSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorldTabitaS;
+			};
+			name = Debug;
+		};
+		22A6BA7B2B60D4AF008E6E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.HelloWorldTabitaSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorldTabitaS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A6BA412B60D4AE008E6E7C /* Build configuration list for PBXProject "HelloWorldTabitaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A6BA712B60D4AF008E6E7C /* Debug */,
+				22A6BA722B60D4AF008E6E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A6BA732B60D4AF008E6E7C /* Build configuration list for PBXNativeTarget "HelloWorldTabitaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A6BA742B60D4AF008E6E7C /* Debug */,
+				22A6BA752B60D4AF008E6E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A6BA762B60D4AF008E6E7C /* Build configuration list for PBXNativeTarget "HelloWorldTabitaSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A6BA772B60D4AF008E6E7C /* Debug */,
+				22A6BA782B60D4AF008E6E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A6BA792B60D4AF008E6E7C /* Build configuration list for PBXNativeTarget "HelloWorldTabitaSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A6BA7A2B60D4AF008E6E7C /* Debug */,
+				22A6BA7B2B60D4AF008E6E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22A6BA522B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22A6BA532B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodel */,
+			);
+			currentVersion = 22A6BA532B60D4AE008E6E7C /* HelloWorldTabitaS.xcdatamodel */;
+			path = HelloWorldTabitaS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22A6BA3E2B60D4AE008E6E7C /* Project object */;
+}
