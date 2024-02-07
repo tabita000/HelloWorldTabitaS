@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/tabita/Desktop/MAD-157-II/HelloWorldTabitaS/usingXcodeTutorialS.xcodeproj">
    </FileRef>
 </Workspace>
